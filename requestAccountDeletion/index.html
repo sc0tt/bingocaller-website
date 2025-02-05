@@ -66,7 +66,7 @@
             submitButton.textContent = "Submitting...";
 
             try {
-                const response = await fetch("https://us-central1-bingo-caller-76ea.cloudfunctions.net/pleaseDeleteAccount", {
+                const response = await fetch("https://pleasedeleteaccount-n5ytyxhyuq-uc.a.run.app", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ email: email })
