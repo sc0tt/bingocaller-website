@@ -42,6 +42,10 @@ a {
   width:200px;
 }
 
+.screenshot-tablet {
+  width:auto;
+}
+
 .google-play-btn {
   background:none;
   border:0;

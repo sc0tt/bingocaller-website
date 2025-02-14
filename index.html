@@ -1,46 +1,130 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Bingo Caller</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Scott Adie">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Bingo Caller</h1>
-      <h2 class="project-tagline">Android Bingo Calling Application with Google Cast Functionality</h2>
-      <a class="btn google-play-btn" href='https://play.google.com/store/apps/details?id=net.meeplecorp.bingocaller&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
-    </section>
-    <section class="main-content">
-      <h2>About</h2>
-      <p>
-        Bingo Caller is an android application available on the Google Play Store which allows you to host bingo nights with ease.
-      </p>
-      <h2>Features</h2>
-      <h4>Google Cast</h4>
-      <p>Cast your bingo board to your television to provide all your players with the current list of called balls.</p>
-      <h4>Auto Draw</h4>
-      <p>
-        <img class="screenshot" src="/images/auto.png" /><br />
-        Bingo Caller can automatically call the next bingo ball at a specified interval.
-      </p>
-      <h4>Multiple Game Types</h4>
-      <p>
-        <img class="screenshot" src="/images/newgame.png" /><br />
-        Bingo Caller supports multiple game types for every type of bingo you want to play.
-      </p>
-      <h2>Support or Contact</h3>
-      <p>Having trouble with Bingo Caller or have a suggestion? Contact me at <a href="mailto:android-support@adie.io">android-support@adie.io</a> and I'll do my best to help.</p>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bingo Caller - Your Ultimate Bingo Companion</title>
+  <meta name="description"
+    content="Bingo Caller is the perfect companion for your next bingo night, offering a bingo number generator, board display, and many customizable features.">
+  <link rel="canonical" href="https://www.bingocallerapp.com/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Scott Adie">
+
+  <meta property="og:title" content="Bingo Caller - Your Ultimate Bingo Companion">
+  <meta property="og:description"
+    content="Bingo Caller is the perfect companion for your next bingo night. Enjoy features like a bingo number generator, Chromecast-enabled display, and more.">
+  <meta property="og:url" content="https://www.bingocallerapp.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.bingocallerapp.com/images/apple-touch-icon-512.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bingo Caller - Your Ultimate Bingo Companion">
+  <meta name="twitter:description"
+    content="Bingo Caller provides a bingo number generator and board for your next bingo night. Check out its cool features like Chromecast-enabled casting, customizable game types, and more.">
+  <meta name="twitter:image" content="https://www.bingocallerapp.com/images/apple-touch-icon-512.png">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["VideoGame", "MobileApplication"],
+      "name": "Bingo Caller",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "GameApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+      },
+      "url": "https://play.google.com/store/apps/details?id=net.meeplecorp.bingocaller",
+      "screenshot": "https://www.bingocallerapp.com/images/home_auto_75.png",
+      "image": "https://www.bingocallerapp.com/images/apple-touch-icon-512.png",
+      "description": "Bingo Caller is a free Android app that provides a bingo number generator and bingo board, making it the perfect companion for your next bingo night."
+    }
+    </script>
+
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/images/apple-touch-icon-167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180.png">
+  <link rel="apple-touch-icon" sizes="256x256" href="/images/apple-touch-icon-256.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="/images/apple-touch-icon-512.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="/images/apple-touch-icon-1024.png">
+</head>
+
+<body>
+  <section class="page-header">
+    <h1 class="project-name">Bingo Caller</h1>
+    <h2 class="project-tagline">Android Bingo Calling Application with Google Cast Functionality</h2>
+    <a class="btn google-play-btn"
+      href='https://play.google.com/store/apps/details?id=net.meeplecorp.bingocaller&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+        alt='Get it on Google Play'
+        src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a>
+  </section>
+  <section class="main-content">
+    <h2>About</h2>
+    <p>
+      Bingo Caller is an android application available on the Google Play Store which allows you to host bingo nights
+      with ease.
+    </p>
+    <h2>Features</h2>
+    <ul>
+      <li><strong>Casting</strong> - Utilize your television to display the bingo board to all players. (This app is
+        Chromecast-enabled)</li>
+      <li><strong>Game Types</strong> - Choose from 30, 75, 80, 90, 100, and custom (up to 1000) ball variations.</li>
+      <li><strong>Manual Call</strong> - Call random numbers or press and hold any number to manually call a number.
+      </li>
+      <li><strong>Auto Call</strong> - Specify a time interval for balls to be called automatically.</li>
+      <li><strong>Announcer</strong> - Speak the called numbers through your device and television, multiple voices are
+        available.</li>
+      <li><strong>Patterns</strong> - Program patterns that can be played.</li>
+      <li><strong>Exclude</strong> - Ignore specific numbers if they are not used in a game.</li>
+      <li><strong>Bingo Lingo</strong> - In 90-ball mode enable this option to hear and see the bingo lingo.</li>
+      <li><strong>Call Order</strong> - Ascending, Descending, and Random (Most common)</li>
+      <li><strong>Ball History</strong> - View all previously called balls.</li>
+      <li><strong>Crazy Call</strong> - Call all numbers at the same time ending with a specific number.</li>
+    </ul>
+    <h2>Screenshots</h2>
+    <h3>Auto Calling</h3>
+    <figure>
+      <img class="screenshot" src="/images/home_auto_75.png" alt="Bingo Caller in auto mode" />
+      <figcaption>Bingo Caller can automatically call the next bingo ball at a specified interval.</figcaption>
+    </figure>
+    <h3>Manual Calling</h3>
+    <figure>
+      <img class="screenshot" src="/images/home_manual_75.png" alt="Bingo Caller in manual mode" />
+      <figcaption>Manually call a random number or select a number from the board yourself.<br />
+        This works great if you are using the app with a physical bingo set!</figcaption>
+    </figure>
+    <h3>Dark Mode</h3>
+    <figure>
+      <img class="screenshot" src="/images/home_manual_75_dark.png" alt="Bingo Caller in manual mode" />
+      <figcaption>Dark mode is supported.</figcaption>
+    </figure>
+    <h3>Tablets</h3>
+    <figure>
+      <img class="screenshot-tablet" src="/images/home_auto_75_tablet.png" alt="Bingo Caller on a tablet" />
+      <figcaption>Tablets are also supported.</figcaption>
+    </figure>
+    <h2>Support or Contact</h3>
+      <p>Having trouble with Bingo Caller or have a suggestion? Contact me at <a
+          href="mailto:android-support@adie.io">android-support@adie.io</a> and I'll do my best to help.</p>
       <footer class="site-footer">
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span><br />
-        <span class="site-footer-credits">Android, Google Play and the Google Play logo are trademarks of Google Inc.</span><br />
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>
+          using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a
+            href="https://twitter.com/jasonlong">Jason Long</a>.</span><br />
+        <span class="site-footer-credits">Android, Google Play and the Google Play logo are trademarks of Google
+          Inc.</span><br />
         <a href="bingo-caller-privacy-policy.html">Privacy Policy</a>
       </footer>
-    </section>
-  </body>
+  </section>
+</body>
+
 </html>
