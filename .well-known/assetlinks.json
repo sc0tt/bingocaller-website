@@ -18,7 +18,8 @@
         "package_name": "net.meeplecorp.bingocaller",
         "sha256_cert_fingerprints": [
           "5C:EE:4C:12:67:F2:74:86:92:DB:67:BE:5D:A3:37:8F:68:E7:08:6B:55:6A:59:22:6C:45:FD:20:C7:6F:37:BC",
-          "69:BA:FA:1C:DC:60:B9:E1:7A:CA:18:1B:D6:35:79:FD:FA:A4:FC:18:A6:20:4B:A2:41:21:83:03:59:2D:56:BD"
+          "69:BA:FA:1C:DC:60:B9:E1:7A:CA:18:1B:D6:35:79:FD:FA:A4:FC:18:A6:20:4B:A2:41:21:83:03:59:2D:56:BD",
+          "D2:2C:8B:FF:B1:F6:54:00:56:45:7F:E2:8D:E1:12:C7:A8:DE:22:18:9D:02:6E:74:A5:50:74:56:AA:76:7B:B1"
         ]
       }
     }
