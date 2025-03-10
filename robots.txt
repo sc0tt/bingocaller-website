@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.bingocallerapp.com/sitemap.xml
+Sitemap: https://bingocallerapp.com/sitemap.xml
